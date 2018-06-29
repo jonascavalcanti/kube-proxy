@@ -54,6 +54,6 @@ docker run -d \
 # Docker example
 
 ```
-docker run -d --name kube-proxy -h kube-proxy --privileged=true -p 10251:10251 -v /opt/kubernetes/certs:/opt/kubernetes/certs kube-proxy
+docker run -d --name kube-proxy -h kube-proxy --privileged=true -v /opt/kubernetes/certs:/opt/kubernetes/certs kube-proxy
      
 ```
